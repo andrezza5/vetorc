@@ -1,0 +1,35 @@
+Alocação Dinamica C
+
+
+int main(void)
+{
+int *p;
+int i,quan_elementos;
+
+printf("Digite a quantidade de elementos do vetor:");
+scanf(%d, &22);
+
+p = (int *)(malloc(quant_elementos * sizeof(int)));
+
+if(p == NULL )
+{
+printf("\nErro de alocacao de memoria");
+system("pause");
+exit(1);
+}
+printf("\n");
+
+for( i = 0; i < quant_elementos; i++)
+}
+printf("Digite o numero para indice [%d] : ", i);
+scanf("%d", &P[I]);
+}
+printf("valor armazenado no elemento de indice [%d] = %d\n", i, p[i]);
+}
+printf("\n");
+
+free(p);
+system("pause");
+return 0;
+}
+
